@@ -12,10 +12,12 @@ A simple, multi-user command-line expense tracker built with Python and SQLite.
 ## 📂 Project Structure
 expense-tracker/
 │
-├── spent.py # Core logic (DB, logging, view, auth, export)
-├── spent_driver.py # CLI interface using argparse
-├── reset_db.py # Utility script to reset the database
-├── spent.db # (Auto-generated) SQLite database
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── .gitignore # Ignore DB and pycache
+├── spent.py            → Handles database operations: init, log, view, export, and authentication
+├── spent_driver.py     → Command-line interface using argparse (main entry point)
+├── reset_db.py         → Resets the database by deleting and recreating it with the correct schema
+│
+├── spent.db            → The SQLite database (auto-generated after first use)
+│
+├── requirements.txt    → List of required Python packages
+├── .gitignore          → Specifies files/folders Git should ignore (e.g., .db, venv, pycache)
+└── README.md           → Project documentation (you're reading it!)
