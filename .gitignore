@@ -1,0 +1,13 @@
+# Ignore SQLite database files
+*.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder
+venv/
+.env
+
+# Ignore exported CSVs (optional)
+*.csv
