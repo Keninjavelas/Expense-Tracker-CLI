@@ -1,0 +1,2 @@
+tabulate
+This is the only external dependency used in your project. sqlite3 and argparse are built into Python and don’t need to be listed.
